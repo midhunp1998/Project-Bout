@@ -17,7 +17,9 @@ class Firstpage extends StatelessWidget {
             ),
           ),
 
-
+            child: Center(
+              child: Image(
+                image: AssetImage('assets/b1.png'),
         ),
       ),
     ),
