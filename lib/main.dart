@@ -22,6 +22,8 @@ class Firstpage extends StatelessWidget {
                 image: AssetImage('assets/bout1.png'),
 
 
+
+
                 //this change was made by PC Lee
                 //2nd file by pclee
         ),
