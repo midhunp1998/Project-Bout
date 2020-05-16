@@ -20,6 +20,9 @@ class Firstpage extends StatelessWidget {
             child: Center(
               child: Image(
                 image: AssetImage('assets/bout1.png'),
+
+
+                //this change was made by PC Lee
         ),
       ),
     ),
