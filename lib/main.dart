@@ -1,41 +1,17 @@
-import 'package:flutter/material.dart';
-void main() => runApp( Firstpage());
 
-class Firstpage extends StatelessWidget {
+import 'package:flutter/material.dart';
+import 'package:boutapp/Secondpage.dart';
+import 'package:boutapp/Firstpage.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-      home:  Scaffold(
-        body: Container(
-
-          decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [const Color(0xFFffd194),const Color(0xFF70e1f5)],
-                begin: FractionalOffset.topLeft,
-                end: FractionalOffset.bottomRight,
-                stops: [0.1,1.0],
-                tileMode: TileMode.clamp
-            ),
-          ),
-
-            child: Center(
-              child: Image(
-                image: AssetImage('assets/bout1.png'),
-
-
-
-
-                //this change was made by PC Lee
-                //2nd file by pclee
-        ),
-      ),
-    ),
-    ),
+    return MaterialApp(
+      home: Firstpage(),
     );
-
-    // new comment
-
   }
 }
-
 
 
